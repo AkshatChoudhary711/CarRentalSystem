@@ -1,5 +1,14 @@
 package entities;
 
+import org.springframework.stereotype.Component;
+
+import java.lang.annotation.Documented;
+
+@Component
+
 public class Car {
-    private int wheels;
+    private String regNo;
+    private String brand;
+    private String model;
+    private int seatCount;
 }
